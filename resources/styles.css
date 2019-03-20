@@ -1,12 +1,16 @@
-.defaultText {
-  font-size: 32;
-  font-family: System-Regular;
-  font-weight: regular;
+text {
+  font-family: Fabrikat-Black;
   text-length: 32;
 }
 
-#background {
-  width: 100%;
-  height: 100%;
-  fill: white;
+.color__primary {
+  fill: #a83284;
+}
+
+.color__info {
+  fill: #d8d8d8;
+}
+
+.color__background {
+  fill: #333234;
 }

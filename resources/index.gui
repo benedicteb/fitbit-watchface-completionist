@@ -1,3 +1,84 @@
 <svg>
-  <rect id="background" />
+  <rect id="background" fill="black" width="100%" height="100%" />
+
+  <text id="txt-hours-minutes" class="color__primary" x="130" y="90" font-size="100" text-anchor="middle" />
+  <text id="txt-seconds" class="color__primary" x="245" y="90" font-size="42" text-anchor="start" />
+
+
+  <text class="color__info" x="15" y="170" font-size="24" font-family="SevilleSharp-Bold"
+        text-anchor="start">WEEK</text>
+
+  <circle class="color__primary" cx="105" cy="161" r="14" />
+  <text class="color__info" x="95" y="167" font-size="14" font-family="SevilleSharp-Bold"
+        text-anchor="start">12</text>
+
+  <line id="line-week-progress" class="color__primary" x1="18" y1="191" x2="110" y2="191" stroke-width="4" layer="2" stroke-linecap="butt" />
+
+  <line class="color__background" x1="18" y1="195" x2="282" y2="195" stroke-width="4" />
+  <line class="color__background" x1="16" y1="195" x2="16" y2="180" stroke-width="4" />
+  <line class="color__background" x1="284" y1="195" x2="284" y2="180" stroke-width="4" />
+
+  <line class="color__background" x1="56" y1="195" x2="56" y2="185" stroke-width="2" />
+  <line class="color__background" x1="94" y1="195" x2="94" y2="185" stroke-width="2" />
+  <line class="color__background" x1="132" y1="195" x2="132" y2="185" stroke-width="2" />
+  <line class="color__background" x1="170" y1="195" x2="170" y2="185" stroke-width="2" />
+  <line class="color__background" x1="208" y1="195" x2="208" y2="185" stroke-width="2" />
+  <line class="color__background" x1="246" y1="195" x2="246" y2="185" stroke-width="2" />
+
+  <text class="color__background" x="37" y="190" font-size="18" font-family="SevilleSharp-Bold"
+        text-anchor="middle">M</text>
+  <text class="color__background" x="75" y="190" font-size="18" font-family="SevilleSharp-Bold"
+        text-anchor="middle">T</text>
+  <text class="color__background" x="113" y="190" font-size="18" font-family="SevilleSharp-Bold"
+        text-anchor="middle">O</text>
+  <text class="color__background" x="151" y="190" font-size="18" font-family="SevilleSharp-Bold"
+        text-anchor="middle">T</text>
+  <text class="color__background" x="189" y="190" font-size="18" font-family="SevilleSharp-Bold"
+        text-anchor="middle">F</text>
+  <text class="color__background" x="227" y="190" font-size="18" font-family="SevilleSharp-Bold"
+        text-anchor="middle">S</text>
+  <text class="color__background" x="265" y="190" font-size="18" font-family="SevilleSharp-Bold"
+        text-anchor="middle">S</text>
+
+
+  <line id="line-hours-progress" class="color__primary" x1="18" y1="136" x2="110" y2="136" stroke-width="4" layer="2" stroke-linecap="butt" />
+
+  <text class="color__info" x="15" y="120" font-size="24" font-family="SevilleSharp-Bold"
+        text-anchor="start">HOURS</text>
+
+  <line class="color__background" x1="18" y1="140" x2="282" y2="140" stroke-width="4" />
+  <line class="color__background" x1="16" y1="140" x2="16" y2="125" stroke-width="4" />
+  <line class="color__background" x1="284" y1="140" x2="284" y2="125" stroke-width="4" />
+
+  <line class="color__background" x1="29" y1="140" x2="29" y2="130" stroke-width="2" />
+  <line class="color__background" x1="40" y1="140" x2="40" y2="130" stroke-width="2" />
+  <line class="color__background" x1="51" y1="140" x2="51" y2="130" stroke-width="2" />
+  <line class="color__background" x1="62" y1="140" x2="62" y2="130" stroke-width="2" />
+  <line class="color__background" x1="73" y1="140" x2="73" y2="130" stroke-width="2" />
+  <line class="color__background" x1="84" y1="140" x2="84" y2="130" stroke-width="2" />
+  <line class="color__background" x1="95" y1="140" x2="95" y2="130" stroke-width="2" />
+  <line class="color__background" x1="106" y1="140" x2="106" y2="130" stroke-width="2" />
+  <line class="color__background" x1="117" y1="140" x2="117" y2="130" stroke-width="2" />
+  <line class="color__background" x1="128" y1="140" x2="128" y2="130" stroke-width="2" />
+  <line class="color__background" x1="139" y1="140" x2="139" y2="130" stroke-width="2" />
+  <line class="color__background" x1="150" y1="140" x2="150" y2="130" stroke-width="2" />
+  <line class="color__background" x1="161" y1="140" x2="161" y2="130" stroke-width="2" />
+  <line class="color__background" x1="172" y1="140" x2="172" y2="130" stroke-width="2" />
+  <line class="color__background" x1="183" y1="140" x2="183" y2="130" stroke-width="2" />
+  <line class="color__background" x1="194" y1="140" x2="194" y2="130" stroke-width="2" />
+  <line class="color__background" x1="205" y1="140" x2="205" y2="130" stroke-width="2" />
+  <line class="color__background" x1="216" y1="140" x2="216" y2="130" stroke-width="2" />
+  <line class="color__background" x1="227" y1="140" x2="227" y2="130" stroke-width="2" />
+  <line class="color__background" x1="238" y1="140" x2="238" y2="130" stroke-width="2" />
+  <line class="color__background" x1="249" y1="140" x2="249" y2="130" stroke-width="2" />
+  <line class="color__background" x1="260" y1="140" x2="260" y2="130" stroke-width="2" />
+  <line class="color__background" x1="271" y1="140" x2="271" y2="130" stroke-width="2" />
+
+
+  <text class="color__info" x="15" y="230" font-size="24" font-family="SevilleSharp-Bold"
+        text-anchor="start">MONTH</text>
+
+  <circle class="color__primary" cx="105" cy="230" r="14" />
+  <text class="color__info" x="95" y="230" font-size="14" font-family="SevilleSharp-Bold"
+        text-anchor="start">Mar</text>
 </svg>
